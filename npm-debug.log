@@ -1,0 +1,487 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/rayhan/.nvm/v0.10.38/bin/node',
+1 verbose cli   '/Users/rayhan/.nvm/v0.10.38/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'browserfy',
+1 verbose cli   'reactify',
+1 verbose cli   'vinyl-source-stream',
+1 verbose cli   'watchify',
+1 verbose cli   'gulp-util' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.38
+4 warn package.json reactjs@1.0.0 No description
+5 warn package.json reactjs@1.0.0 No repository field.
+6 warn package.json reactjs@1.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'browserfy', null ]
+9 verbose cache add name=undefined spec="browserfy" args=["browserfy",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'browserfy',
+10 verbose parsed url   path: 'browserfy',
+10 verbose parsed url   href: 'browserfy' }
+11 verbose cache add [ 'reactify', null ]
+12 verbose cache add name=undefined spec="reactify" args=["reactify",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'reactify',
+13 verbose parsed url   path: 'reactify',
+13 verbose parsed url   href: 'reactify' }
+14 verbose cache add [ 'vinyl-source-stream', null ]
+15 verbose cache add name=undefined spec="vinyl-source-stream" args=["vinyl-source-stream",null]
+16 verbose parsed url { protocol: null,
+16 verbose parsed url   slashes: null,
+16 verbose parsed url   auth: null,
+16 verbose parsed url   host: null,
+16 verbose parsed url   port: null,
+16 verbose parsed url   hostname: null,
+16 verbose parsed url   hash: null,
+16 verbose parsed url   search: null,
+16 verbose parsed url   query: null,
+16 verbose parsed url   pathname: 'vinyl-source-stream',
+16 verbose parsed url   path: 'vinyl-source-stream',
+16 verbose parsed url   href: 'vinyl-source-stream' }
+17 verbose cache add [ 'watchify', null ]
+18 verbose cache add name=undefined spec="watchify" args=["watchify",null]
+19 verbose parsed url { protocol: null,
+19 verbose parsed url   slashes: null,
+19 verbose parsed url   auth: null,
+19 verbose parsed url   host: null,
+19 verbose parsed url   port: null,
+19 verbose parsed url   hostname: null,
+19 verbose parsed url   hash: null,
+19 verbose parsed url   search: null,
+19 verbose parsed url   query: null,
+19 verbose parsed url   pathname: 'watchify',
+19 verbose parsed url   path: 'watchify',
+19 verbose parsed url   href: 'watchify' }
+20 verbose cache add [ 'gulp-util', null ]
+21 verbose cache add name=undefined spec="gulp-util" args=["gulp-util",null]
+22 verbose parsed url { protocol: null,
+22 verbose parsed url   slashes: null,
+22 verbose parsed url   auth: null,
+22 verbose parsed url   host: null,
+22 verbose parsed url   port: null,
+22 verbose parsed url   hostname: null,
+22 verbose parsed url   hash: null,
+22 verbose parsed url   search: null,
+22 verbose parsed url   query: null,
+22 verbose parsed url   pathname: 'gulp-util',
+22 verbose parsed url   path: 'gulp-util',
+22 verbose parsed url   href: 'gulp-util' }
+23 silly lockFile 2feae5c7-browserfy browserfy
+24 verbose lock browserfy /Users/rayhan/.npm/2feae5c7-browserfy.lock
+25 silly lockFile 97e36b74-reactify reactify
+26 verbose lock reactify /Users/rayhan/.npm/97e36b74-reactify.lock
+27 silly lockFile a72c1fd8-vinyl-source-stream vinyl-source-stream
+28 verbose lock vinyl-source-stream /Users/rayhan/.npm/a72c1fd8-vinyl-source-stream.lock
+29 silly lockFile f821d843-watchify watchify
+30 verbose lock watchify /Users/rayhan/.npm/f821d843-watchify.lock
+31 silly lockFile 77fa12e5-gulp-util gulp-util
+32 verbose lock gulp-util /Users/rayhan/.npm/77fa12e5-gulp-util.lock
+33 silly lockFile 2feae5c7-browserfy browserfy
+34 silly lockFile 2feae5c7-browserfy browserfy
+35 silly lockFile 97e36b74-reactify reactify
+36 silly lockFile 97e36b74-reactify reactify
+37 silly lockFile a72c1fd8-vinyl-source-stream vinyl-source-stream
+38 silly lockFile a72c1fd8-vinyl-source-stream vinyl-source-stream
+39 verbose addNamed [ 'browserfy', '' ]
+40 verbose addNamed [ null, '*' ]
+41 silly lockFile 21be378c-browserfy browserfy@
+42 verbose lock browserfy@ /Users/rayhan/.npm/21be378c-browserfy.lock
+43 silly lockFile 77fa12e5-gulp-util gulp-util
+44 silly lockFile 77fa12e5-gulp-util gulp-util
+45 verbose addNamed [ 'reactify', '' ]
+46 verbose addNamed [ null, '*' ]
+47 silly lockFile 60172e78-reactify reactify@
+48 verbose lock reactify@ /Users/rayhan/.npm/60172e78-reactify.lock
+49 verbose addNamed [ 'vinyl-source-stream', '' ]
+50 verbose addNamed [ null, '*' ]
+51 silly lockFile b7d6893a-vinyl-source-stream vinyl-source-stream@
+52 verbose lock vinyl-source-stream@ /Users/rayhan/.npm/b7d6893a-vinyl-source-stream.lock
+53 silly lockFile f821d843-watchify watchify
+54 silly lockFile f821d843-watchify watchify
+55 verbose addNamed [ 'gulp-util', '' ]
+56 verbose addNamed [ null, '*' ]
+57 silly lockFile ecd61fb3-gulp-util gulp-util@
+58 verbose lock gulp-util@ /Users/rayhan/.npm/ecd61fb3-gulp-util.lock
+59 silly addNameRange { name: 'browserfy', range: '*', hasData: false }
+60 verbose addNamed [ 'watchify', '' ]
+61 verbose addNamed [ null, '*' ]
+62 silly lockFile 19227da7-watchify watchify@
+63 verbose lock watchify@ /Users/rayhan/.npm/19227da7-watchify.lock
+64 silly addNameRange { name: 'reactify', range: '*', hasData: false }
+65 silly addNameRange { name: 'vinyl-source-stream', range: '*', hasData: false }
+66 verbose request where is /browserfy
+67 verbose request registry https://registry.npmjs.org/
+68 verbose request id 0385c24ccb58f343
+69 verbose url raw /browserfy
+70 verbose url resolving [ 'https://registry.npmjs.org/', './browserfy' ]
+71 verbose url resolved https://registry.npmjs.org/browserfy
+72 verbose request where is https://registry.npmjs.org/browserfy
+73 info trying registry request attempt 1 at 16:19:51
+74 http GET https://registry.npmjs.org/browserfy
+75 silly addNameRange { name: 'gulp-util', range: '*', hasData: false }
+76 verbose request where is /reactify
+77 verbose request registry https://registry.npmjs.org/
+78 verbose url raw /reactify
+79 verbose url resolving [ 'https://registry.npmjs.org/', './reactify' ]
+80 verbose url resolved https://registry.npmjs.org/reactify
+81 verbose request where is https://registry.npmjs.org/reactify
+82 info trying registry request attempt 1 at 16:19:51
+83 http GET https://registry.npmjs.org/reactify
+84 verbose request where is /vinyl-source-stream
+85 verbose request registry https://registry.npmjs.org/
+86 verbose url raw /vinyl-source-stream
+87 verbose url resolving [ 'https://registry.npmjs.org/', './vinyl-source-stream' ]
+88 verbose url resolved https://registry.npmjs.org/vinyl-source-stream
+89 verbose request where is https://registry.npmjs.org/vinyl-source-stream
+90 info trying registry request attempt 1 at 16:19:51
+91 http GET https://registry.npmjs.org/vinyl-source-stream
+92 silly addNameRange { name: 'watchify', range: '*', hasData: false }
+93 verbose request where is /watchify
+94 verbose request registry https://registry.npmjs.org/
+95 verbose url raw /watchify
+96 verbose url resolving [ 'https://registry.npmjs.org/', './watchify' ]
+97 verbose url resolved https://registry.npmjs.org/watchify
+98 verbose request where is https://registry.npmjs.org/watchify
+99 info trying registry request attempt 1 at 16:19:51
+100 http GET https://registry.npmjs.org/watchify
+101 verbose request where is /gulp-util
+102 verbose request registry https://registry.npmjs.org/
+103 verbose url raw /gulp-util
+104 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-util' ]
+105 verbose url resolved https://registry.npmjs.org/gulp-util
+106 verbose request where is https://registry.npmjs.org/gulp-util
+107 info trying registry request attempt 1 at 16:19:51
+108 verbose etag "6K3SGVFQURTJ2LJZLG6E2GVIC"
+109 http GET https://registry.npmjs.org/gulp-util
+110 http 304 https://registry.npmjs.org/gulp-util
+111 silly registry.get cb [ 304,
+111 silly registry.get   { date: 'Mon, 11 May 2015 20:19:51 GMT',
+111 silly registry.get     via: '1.1 varnish',
+111 silly registry.get     'cache-control': 'max-age=60',
+111 silly registry.get     etag: '"6K3SGVFQURTJ2LJZLG6E2GVIC"',
+111 silly registry.get     age: '20',
+111 silly registry.get     connection: 'keep-alive',
+111 silly registry.get     'x-served-by': 'cache-iad2140-IAD',
+111 silly registry.get     'x-cache': 'HIT',
+111 silly registry.get     'x-cache-hits': '1',
+111 silly registry.get     'x-timer': 'S1431375591.554956,VS0,VE0',
+111 silly registry.get     vary: 'Accept' } ]
+112 verbose etag https://registry.npmjs.org/gulp-util from cache
+113 silly addNameRange number 2 { name: 'gulp-util', range: '*', hasData: true }
+114 silly addNameRange versions [ 'gulp-util',
+114 silly addNameRange   [ '0.0.1',
+114 silly addNameRange     '1.0.0',
+114 silly addNameRange     '1.1.0',
+114 silly addNameRange     '1.1.1',
+114 silly addNameRange     '1.2.0',
+114 silly addNameRange     '1.3.0',
+114 silly addNameRange     '2.0.0',
+114 silly addNameRange     '2.1.1',
+114 silly addNameRange     '2.1.2',
+114 silly addNameRange     '2.1.3',
+114 silly addNameRange     '2.1.4',
+114 silly addNameRange     '2.2.0',
+114 silly addNameRange     '2.2.1',
+114 silly addNameRange     '2.2.2',
+114 silly addNameRange     '2.2.3',
+114 silly addNameRange     '2.2.5',
+114 silly addNameRange     '2.2.6',
+114 silly addNameRange     '2.2.7',
+114 silly addNameRange     '2.2.8',
+114 silly addNameRange     '2.2.9',
+114 silly addNameRange     '2.2.10',
+114 silly addNameRange     '2.2.11',
+114 silly addNameRange     '2.2.12',
+114 silly addNameRange     '2.2.13',
+114 silly addNameRange     '2.2.14',
+114 silly addNameRange     '2.2.15',
+114 silly addNameRange     '2.2.16',
+114 silly addNameRange     '2.2.17',
+114 silly addNameRange     '2.2.18',
+114 silly addNameRange     '2.2.19',
+114 silly addNameRange     '2.2.20',
+114 silly addNameRange     '3.0.0',
+114 silly addNameRange     '3.0.1',
+114 silly addNameRange     '3.0.2',
+114 silly addNameRange     '3.0.3',
+114 silly addNameRange     '3.0.4' ] ]
+115 verbose addNamed [ 'gulp-util', '3.0.4' ]
+116 verbose addNamed [ '3.0.4', '3.0.4' ]
+117 silly lockFile 3c9f70bb-gulp-util-3-0-4 gulp-util@3.0.4
+118 verbose lock gulp-util@3.0.4 /Users/rayhan/.npm/3c9f70bb-gulp-util-3-0-4.lock
+119 silly lockFile 3c9f70bb-gulp-util-3-0-4 gulp-util@3.0.4
+120 silly lockFile 3c9f70bb-gulp-util-3-0-4 gulp-util@3.0.4
+121 silly lockFile ecd61fb3-gulp-util gulp-util@
+122 silly lockFile ecd61fb3-gulp-util gulp-util@
+123 http 404 https://registry.npmjs.org/browserfy
+124 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+124 verbose headers   'content-type': 'application/json',
+124 verbose headers   'cache-control': 'max-age=0',
+124 verbose headers   'content-length': '51',
+124 verbose headers   'accept-ranges': 'bytes',
+124 verbose headers   date: 'Mon, 11 May 2015 20:19:51 GMT',
+124 verbose headers   via: '1.1 varnish',
+124 verbose headers   age: '0',
+124 verbose headers   connection: 'keep-alive',
+124 verbose headers   'x-served-by': 'cache-iad2140-IAD',
+124 verbose headers   'x-cache': 'MISS',
+124 verbose headers   'x-cache-hits': '0',
+124 verbose headers   'x-timer': 'S1431375591.555376,VS0,VE16' }
+125 silly registry.get cb [ 404,
+125 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+125 silly registry.get     'content-type': 'application/json',
+125 silly registry.get     'cache-control': 'max-age=0',
+125 silly registry.get     'content-length': '51',
+125 silly registry.get     'accept-ranges': 'bytes',
+125 silly registry.get     date: 'Mon, 11 May 2015 20:19:51 GMT',
+125 silly registry.get     via: '1.1 varnish',
+125 silly registry.get     age: '0',
+125 silly registry.get     connection: 'keep-alive',
+125 silly registry.get     'x-served-by': 'cache-iad2140-IAD',
+125 silly registry.get     'x-cache': 'MISS',
+125 silly registry.get     'x-cache-hits': '0',
+125 silly registry.get     'x-timer': 'S1431375591.555376,VS0,VE16' } ]
+126 silly lockFile 21be378c-browserfy browserfy@
+127 silly lockFile 21be378c-browserfy browserfy@
+128 http 200 https://registry.npmjs.org/watchify
+129 silly registry.get cb [ 200,
+129 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+129 silly registry.get     etag: '"DQ3S4XXOIIM00VXUF1Q8RT0XE"',
+129 silly registry.get     'content-type': 'application/json',
+129 silly registry.get     'cache-control': 'max-age=60',
+129 silly registry.get     'content-length': '69097',
+129 silly registry.get     'accept-ranges': 'bytes',
+129 silly registry.get     date: 'Mon, 11 May 2015 20:19:51 GMT',
+129 silly registry.get     via: '1.1 varnish',
+129 silly registry.get     age: '5',
+129 silly registry.get     connection: 'keep-alive',
+129 silly registry.get     'x-served-by': 'cache-iad2145-IAD',
+129 silly registry.get     'x-cache': 'HIT',
+129 silly registry.get     'x-cache-hits': '1',
+129 silly registry.get     'x-timer': 'S1431375591.579565,VS0,VE0',
+129 silly registry.get     vary: 'Accept' } ]
+130 silly addNameRange number 2 { name: 'watchify', range: '*', hasData: true }
+131 silly addNameRange versions [ 'watchify',
+131 silly addNameRange   [ '0.0.0',
+131 silly addNameRange     '0.0.1',
+131 silly addNameRange     '0.1.0',
+131 silly addNameRange     '0.2.0',
+131 silly addNameRange     '0.3.0',
+131 silly addNameRange     '0.4.0',
+131 silly addNameRange     '0.4.1',
+131 silly addNameRange     '0.5.0',
+131 silly addNameRange     '0.5.1',
+131 silly addNameRange     '0.5.2',
+131 silly addNameRange     '0.5.3',
+131 silly addNameRange     '0.5.4',
+131 silly addNameRange     '0.5.5',
+131 silly addNameRange     '0.5.6',
+131 silly addNameRange     '0.6.0',
+131 silly addNameRange     '0.6.1',
+131 silly addNameRange     '0.6.2',
+131 silly addNameRange     '0.6.3',
+131 silly addNameRange     '0.6.4',
+131 silly addNameRange     '0.7.0',
+131 silly addNameRange     '0.7.1',
+131 silly addNameRange     '0.7.2',
+131 silly addNameRange     '0.8.0',
+131 silly addNameRange     '0.8.1',
+131 silly addNameRange     '0.8.2',
+131 silly addNameRange     '0.8.3',
+131 silly addNameRange     '0.9.0',
+131 silly addNameRange     '0.10.0',
+131 silly addNameRange     '0.10.1',
+131 silly addNameRange     '0.10.2',
+131 silly addNameRange     '1.0.0',
+131 silly addNameRange     '1.0.1',
+131 silly addNameRange     '1.0.2',
+131 silly addNameRange     '1.0.3',
+131 silly addNameRange     '1.0.4',
+131 silly addNameRange     '1.0.5',
+131 silly addNameRange     '1.0.6',
+131 silly addNameRange     '2.0.0',
+131 silly addNameRange     '2.1.0',
+131 silly addNameRange     '2.1.1',
+131 silly addNameRange     '2.2.0',
+131 silly addNameRange     '2.2.1',
+131 silly addNameRange     '2.3.0',
+131 silly addNameRange     '2.4.0',
+131 silly addNameRange     '2.5.0',
+131 silly addNameRange     '2.6.0',
+131 silly addNameRange     '2.6.1',
+131 silly addNameRange     '2.6.2',
+131 silly addNameRange     '3.0.0',
+131 silly addNameRange     '3.0.1',
+131 silly addNameRange     '3.1.0',
+131 silly addNameRange     '3.1.1',
+131 silly addNameRange     '3.1.2',
+131 silly addNameRange     '3.2.0',
+131 silly addNameRange     '3.2.1' ] ]
+132 verbose addNamed [ 'watchify', '3.2.1' ]
+133 verbose addNamed [ '3.2.1', '3.2.1' ]
+134 silly lockFile bfc6789e-watchify-3-2-1 watchify@3.2.1
+135 verbose lock watchify@3.2.1 /Users/rayhan/.npm/bfc6789e-watchify-3-2-1.lock
+136 silly lockFile 36c25a44--org-watchify-watchify-3-2-1-tgz https://registry.npmjs.org/watchify/-/watchify-3.2.1.tgz
+137 verbose lock https://registry.npmjs.org/watchify/-/watchify-3.2.1.tgz /Users/rayhan/.npm/36c25a44--org-watchify-watchify-3-2-1-tgz.lock
+138 verbose addRemoteTarball [ 'https://registry.npmjs.org/watchify/-/watchify-3.2.1.tgz',
+138 verbose addRemoteTarball   '19bcfd7bfcbf41d7f4fe3c29740bce45f764e203' ]
+139 info retry fetch attempt 1 at 16:19:51
+140 verbose fetch to= /var/folders/q5/_qrbsp9d7vd5j84c8g3ml5x00000gn/T/npm-1958-OWvLPuzk/registry.npmjs.org/watchify/-/watchify-3.2.1.tgz
+141 http GET https://registry.npmjs.org/watchify/-/watchify-3.2.1.tgz
+142 http 200 https://registry.npmjs.org/reactify
+143 silly registry.get cb [ 200,
+143 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+143 silly registry.get     etag: '"4TH5G2HOOF9KWINHE3LHOMUPF"',
+143 silly registry.get     'content-type': 'application/json',
+143 silly registry.get     'cache-control': 'max-age=60',
+143 silly registry.get     'content-length': '51740',
+143 silly registry.get     'accept-ranges': 'bytes',
+143 silly registry.get     date: 'Mon, 11 May 2015 20:19:51 GMT',
+143 silly registry.get     via: '1.1 varnish',
+143 silly registry.get     age: '0',
+143 silly registry.get     connection: 'keep-alive',
+143 silly registry.get     'x-served-by': 'cache-iad2140-IAD',
+143 silly registry.get     'x-cache': 'HIT',
+143 silly registry.get     'x-cache-hits': '1',
+143 silly registry.get     'x-timer': 'S1431375591.571770,VS0,VE86',
+143 silly registry.get     vary: 'Accept' } ]
+144 silly addNameRange number 2 { name: 'reactify', range: '*', hasData: true }
+145 silly addNameRange versions [ 'reactify',
+145 silly addNameRange   [ '0.1.0',
+145 silly addNameRange     '0.1.1',
+145 silly addNameRange     '0.1.2',
+145 silly addNameRange     '0.1.3',
+145 silly addNameRange     '0.1.4',
+145 silly addNameRange     '0.2.0',
+145 silly addNameRange     '0.2.1',
+145 silly addNameRange     '0.2.2',
+145 silly addNameRange     '0.3.0',
+145 silly addNameRange     '0.3.1',
+145 silly addNameRange     '0.3.2',
+145 silly addNameRange     '0.4.0',
+145 silly addNameRange     '0.5.0',
+145 silly addNameRange     '0.5.1',
+145 silly addNameRange     '0.6.0',
+145 silly addNameRange     '0.6.1',
+145 silly addNameRange     '0.7.0',
+145 silly addNameRange     '0.8.0',
+145 silly addNameRange     '0.8.1',
+145 silly addNameRange     '0.9.0',
+145 silly addNameRange     '0.9.1',
+145 silly addNameRange     '0.10.0',
+145 silly addNameRange     '0.11.0',
+145 silly addNameRange     '0.12.0',
+145 silly addNameRange     '0.13.0',
+145 silly addNameRange     '0.13.1',
+145 silly addNameRange     '0.14.0',
+145 silly addNameRange     '0.15.0',
+145 silly addNameRange     '0.15.1',
+145 silly addNameRange     '0.14.1',
+145 silly addNameRange     '0.8.2',
+145 silly addNameRange     '0.9.2',
+145 silly addNameRange     '0.10.1',
+145 silly addNameRange     '0.11.1',
+145 silly addNameRange     '0.13.2',
+145 silly addNameRange     '0.12.1',
+145 silly addNameRange     '0.15.2',
+145 silly addNameRange     '0.16.0',
+145 silly addNameRange     '0.17.0',
+145 silly addNameRange     '0.17.1',
+145 silly addNameRange     '1.0.0',
+145 silly addNameRange     '1.1.0' ] ]
+146 verbose addNamed [ 'reactify', '1.1.0' ]
+147 verbose addNamed [ '1.1.0', '1.1.0' ]
+148 silly lockFile 3f2211a4-reactify-1-1-0 reactify@1.1.0
+149 verbose lock reactify@1.1.0 /Users/rayhan/.npm/3f2211a4-reactify-1-1-0.lock
+150 silly lockFile edba5cce--org-reactify-reactify-1-1-0-tgz https://registry.npmjs.org/reactify/-/reactify-1.1.0.tgz
+151 verbose lock https://registry.npmjs.org/reactify/-/reactify-1.1.0.tgz /Users/rayhan/.npm/edba5cce--org-reactify-reactify-1-1-0-tgz.lock
+152 verbose addRemoteTarball [ 'https://registry.npmjs.org/reactify/-/reactify-1.1.0.tgz',
+152 verbose addRemoteTarball   'abcefaf4fde54df0aa5343acc1cf295b7f30e394' ]
+153 info retry fetch attempt 1 at 16:19:51
+154 verbose fetch to= /var/folders/q5/_qrbsp9d7vd5j84c8g3ml5x00000gn/T/npm-1958-OWvLPuzk/registry.npmjs.org/reactify/-/reactify-1.1.0.tgz
+155 http GET https://registry.npmjs.org/reactify/-/reactify-1.1.0.tgz
+156 http 200 https://registry.npmjs.org/watchify/-/watchify-3.2.1.tgz
+157 silly lockFile 36c25a44--org-watchify-watchify-3-2-1-tgz https://registry.npmjs.org/watchify/-/watchify-3.2.1.tgz
+158 silly lockFile 36c25a44--org-watchify-watchify-3-2-1-tgz https://registry.npmjs.org/watchify/-/watchify-3.2.1.tgz
+159 silly lockFile bfc6789e-watchify-3-2-1 watchify@3.2.1
+160 silly lockFile bfc6789e-watchify-3-2-1 watchify@3.2.1
+161 silly lockFile 19227da7-watchify watchify@
+162 silly lockFile 19227da7-watchify watchify@
+163 http 200 https://registry.npmjs.org/vinyl-source-stream
+164 silly registry.get cb [ 200,
+164 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+164 silly registry.get     etag: '"EKZC8XIN6XM7ZYXFDSRGHEOQY"',
+164 silly registry.get     'content-type': 'application/json',
+164 silly registry.get     'cache-control': 'max-age=60',
+164 silly registry.get     'content-length': '10566',
+164 silly registry.get     'accept-ranges': 'bytes',
+164 silly registry.get     date: 'Mon, 11 May 2015 20:19:51 GMT',
+164 silly registry.get     via: '1.1 varnish',
+164 silly registry.get     age: '0',
+164 silly registry.get     connection: 'keep-alive',
+164 silly registry.get     'x-served-by': 'cache-iad2128-IAD',
+164 silly registry.get     'x-cache': 'HIT',
+164 silly registry.get     'x-cache-hits': '1',
+164 silly registry.get     'x-timer': 'S1431375591.581145,VS0,VE348',
+164 silly registry.get     vary: 'Accept' } ]
+165 silly addNameRange number 2 { name: 'vinyl-source-stream', range: '*', hasData: true }
+166 silly addNameRange versions [ 'vinyl-source-stream',
+166 silly addNameRange   [ '0.0.0', '0.1.0', '0.1.1', '1.0.0', '1.1.0' ] ]
+167 verbose addNamed [ 'vinyl-source-stream', '1.1.0' ]
+168 verbose addNamed [ '1.1.0', '1.1.0' ]
+169 silly lockFile 8ee6baed-vinyl-source-stream-1-1-0 vinyl-source-stream@1.1.0
+170 verbose lock vinyl-source-stream@1.1.0 /Users/rayhan/.npm/8ee6baed-vinyl-source-stream-1-1-0.lock
+171 silly lockFile b62e7769-am-vinyl-source-stream-1-1-0-tgz https://registry.npmjs.org/vinyl-source-stream/-/vinyl-source-stream-1.1.0.tgz
+172 verbose lock https://registry.npmjs.org/vinyl-source-stream/-/vinyl-source-stream-1.1.0.tgz /Users/rayhan/.npm/b62e7769-am-vinyl-source-stream-1-1-0-tgz.lock
+173 verbose addRemoteTarball [ 'https://registry.npmjs.org/vinyl-source-stream/-/vinyl-source-stream-1.1.0.tgz',
+173 verbose addRemoteTarball   '44cbe5108205279deb0c5653c094a2887938b1ab' ]
+174 info retry fetch attempt 1 at 16:19:51
+175 verbose fetch to= /var/folders/q5/_qrbsp9d7vd5j84c8g3ml5x00000gn/T/npm-1958-OWvLPuzk/registry.npmjs.org/vinyl-source-stream/-/vinyl-source-stream-1.1.0.tgz
+176 http GET https://registry.npmjs.org/vinyl-source-stream/-/vinyl-source-stream-1.1.0.tgz
+177 http 200 https://registry.npmjs.org/reactify/-/reactify-1.1.0.tgz
+178 silly lockFile edba5cce--org-reactify-reactify-1-1-0-tgz https://registry.npmjs.org/reactify/-/reactify-1.1.0.tgz
+179 silly lockFile edba5cce--org-reactify-reactify-1-1-0-tgz https://registry.npmjs.org/reactify/-/reactify-1.1.0.tgz
+180 silly lockFile 3f2211a4-reactify-1-1-0 reactify@1.1.0
+181 silly lockFile 3f2211a4-reactify-1-1-0 reactify@1.1.0
+182 silly lockFile 60172e78-reactify reactify@
+183 silly lockFile 60172e78-reactify reactify@
+184 http 200 https://registry.npmjs.org/vinyl-source-stream/-/vinyl-source-stream-1.1.0.tgz
+185 silly lockFile b62e7769-am-vinyl-source-stream-1-1-0-tgz https://registry.npmjs.org/vinyl-source-stream/-/vinyl-source-stream-1.1.0.tgz
+186 silly lockFile b62e7769-am-vinyl-source-stream-1-1-0-tgz https://registry.npmjs.org/vinyl-source-stream/-/vinyl-source-stream-1.1.0.tgz
+187 silly lockFile 8ee6baed-vinyl-source-stream-1-1-0 vinyl-source-stream@1.1.0
+188 silly lockFile 8ee6baed-vinyl-source-stream-1-1-0 vinyl-source-stream@1.1.0
+189 silly lockFile b7d6893a-vinyl-source-stream vinyl-source-stream@
+190 silly lockFile b7d6893a-vinyl-source-stream vinyl-source-stream@
+191 error 404 404 Not Found: browserfy
+191 error 404
+191 error 404 'browserfy' is not in the npm registry.
+191 error 404 You should bug the author to publish it
+191 error 404 It was specified as a dependency of 'reactjs'
+191 error 404
+191 error 404 Note that you can also install from a
+191 error 404 tarball, folder, or http url, or git url.
+192 error System Darwin 14.0.0
+193 error command "/Users/rayhan/.nvm/v0.10.38/bin/node" "/Users/rayhan/.nvm/v0.10.38/bin/npm" "install" "--save" "browserfy" "reactify" "vinyl-source-stream" "watchify" "gulp-util"
+194 error cwd /Users/rayhan/WebstormProjects/reactjs
+195 error node -v v0.10.38
+196 error npm -v 1.4.28
+197 error code E404
+198 verbose exit [ 1, true ]
